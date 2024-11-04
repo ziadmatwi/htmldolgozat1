@@ -20,12 +20,54 @@ body {
 #kozepso {
     border: 2pt solid gray;
     overflow: auto;
+    padding: 10pt;
 
+}
+#nav  {
+    border: 2pt solid gray;
+    margin-bottom: 2pt;
+
+}
+
+#nav ul {
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr;
+    list-style-type: none;
+    padding-left: 10pt;
+    
+}
+#nav li {
+    border: 2pt solid gray;
+    margin: 2pt;
+    padding: 5pt;
+}
+#nav li:hover {
+    background-color:white;
+    padding: 2px;
+    
+}
+
+#nav a {
+    text-decoration:none;
+    color:black;
+}
+
+h1 {
+    font-size: 20pt;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border: 2pt solid gray;
+    padding: 15pt;
+    margin-bottom: 2pt;
+    letter-spacing: 10pt;
+    text-transform: uppercase;
+    text-align: center;
 }
 h2 {
     margin-left: 10pt;
 }
 #szoveg {
+    width:auto;
+    height: auto;
     margin-right: 10pt;
     margin-left: 10pt;
     text-align:justify;
@@ -33,11 +75,15 @@ h2 {
 }
 
 #kep1 {
-    float:right ;
+    width: 400px;
+    height:auto;
+    border: 2pt solid gray;
+    border-radius: 5pt;
+    float:right;
     margin-left: 10pt;
     margin-right: 2pt;
-    border: 5pt solid gray;
-    border-radius: 25px;
+    margin-bottom: 2pt;
+    
     
 }
 
