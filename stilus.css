@@ -1,10 +1,46 @@
 body {
-    width: 80%;
-    max-width:800px;
-    margin: auto;
+   margin: 0 auto;
+   font-family: Helvetica, arial, sans-serif;
+   font-size: 10pt;
+   color: black;
+   width: 800pt;
+   
+   
+
+}
+
+#tarolo {
+    padding: 10pt;
+    clear: both;
+    background-image: url('hatter1.jpg');
+    background-size: cover;
+    display: table;
+    clear: both;
+}
+#kozepso {
+    border: 2pt solid gray;
+    overflow: auto;
+
+}
+h2 {
+    margin-left: 10pt;
+}
+#szoveg {
+    margin-right: 10pt;
+    margin-left: 10pt;
+    text-align:justify;
+
+}
+
+#kep1 {
+    float:right ;
+    margin-left: 10pt;
+    margin-right: 2pt;
+    border: 5pt solid gray;
+    border-radius: 25px;
+    
 }
 
 
-img {
-    width:40%;
-}
+
+
